@@ -1,0 +1,1 @@
+https://www.rdocumentation.org/packages/ECoL/versions/0.3.0/topics/neighborhood
