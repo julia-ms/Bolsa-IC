@@ -1,0 +1,31 @@
+--Measures--
+
+The decomposed data complexity measures can be grouped in: 
+(1) feature overlapping measures, 
+(2) neighborhood measures, 
+(3) linearity measures.
+
+
+
+-Measures of overlapping-
+
+F1: Fisher's discriminant ratio
+F2: Overlapping of the per-class bounding boxes
+F3: Maximum individual feature efficiency
+F4: Cllective feature efficiency
+
+
+-Measures of neighborhood information-
+
+N1: Fraction of points lying on the class boundary
+N2: Average intra/inter class nearest neighbor distances
+N3: Leave-one-out error rate of the 1-nearest neighbor algorithm
+N4: Nonlinearity of the one-nearest neighbor classifier
+T1: Fraction of maximum covering spheres on data
+
+
+-Measures of linearity-
+
+L1: Distance of erroneous instances to a linear classifier
+L2: Training error of a linear classifier
+L3: Nonlinearity of a linear classifier

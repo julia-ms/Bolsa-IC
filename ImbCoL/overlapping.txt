@@ -1,0 +1,12 @@
+> ImbCoL::overlapping(Species ~ ., iris)
+$F2_partial
+    setosa versicolor  virginica 
+0.00000000 0.85714286 0.06363636 
+
+$F3_partial
+    setosa versicolor  virginica 
+      0.00       0.98       0.32 
+
+$F4_partial
+    setosa versicolor  virginica 
+      0.00       0.98       0.32 
