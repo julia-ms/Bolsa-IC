@@ -7,6 +7,12 @@ if (!require("devtools")) {
 devtools::install_github("victorhb/ImbCoL")
 library("ImbCoL")
 
+# flower species dataset
+
+ImbCoL::complexity(Species ~ ., iris)
+
+ImbCoL::overlapping(Species ~ ., iris)
+
 # package to read .arff 
 install.packages('RWeka')
 library(RWeka)
@@ -14,6 +20,3 @@ library(RWeka)
 # dataset for tests
 dataset = read.arff('Australian.arff')
 
-ImbCoL::complexity(Species ~ ., iris)
-
-ImbCoL::overlapping(Species ~ ., iris)

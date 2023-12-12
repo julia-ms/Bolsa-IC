@@ -10,3 +10,10 @@ $F3_partial
 $F4_partial
     setosa versicolor  virginica 
       0.00       0.98       0.32 
+
+
+==============================================================
+
+-overlapping-
+
+When the columns of a table are formed from the categories of a multiple response variable, data from the same case can be present in both of the columns being tested. This is known as overlapping data, and it means that the two samples cannot be considered independent.
