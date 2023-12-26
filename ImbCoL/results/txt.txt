@@ -1,0 +1,22 @@
+overlapping.F2_partial.majority     overlapping.F2_partial.minority 
+                        0.001000279                         0.074266873 
+    overlapping.F3_partial.majority     overlapping.F3_partial.minority 
+                        0.879746835                         0.916666667 
+    overlapping.F4_partial.majority     overlapping.F4_partial.minority 
+                        0.879746835                         0.916666667 
+   neighborhood.N1_partial.minority    neighborhood.N1_partial.majority 
+                        0.861111111                         0.240506329 
+   neighborhood.N2_partial.majority    neighborhood.N2_partial.minority 
+                        0.385496936                         0.551284779 
+   neighborhood.N3_partial.majority    neighborhood.N3_partial.minority 
+                        0.107594937                         0.777777778 
+   neighborhood.N4_partial.majority    neighborhood.N4_partial.minority 
+                        0.041237113                         0.257731959 
+   neighborhood.T1_partial.majority    neighborhood.T1_partial.minority 
+                        0.379746835                         1.000000000 
+linearity.class.L1_partial.majority linearity.class.L1_partial.minority 
+                        0.010070753                         0.373314421 
+linearity.class.L2_partial.majority linearity.class.L2_partial.minority 
+                        0.018987342                         0.611111111 
+linearity.class.L3_partial.majority linearity.class.L3_partial.minority 
+                        0.015463918                         0.685567010 
