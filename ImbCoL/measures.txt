@@ -29,3 +29,35 @@ T1: Fraction of maximum covering spheres on data
 L1: Distance of erroneous instances to a linear classifier
 L2: Training error of a linear classifier
 L3: Nonlinearity of a linear classifier
+
+
+======================================================================
+
+
+Fisher's Discriminant Ratio (F1): Esta medida é usada na análise de componentes discriminantes e busca maximizar a distância entre as médias das classes enquanto minimiza a dispersão intra-classe. É comumente usada para redução de dimensionalidade e seleção de características.
+
+Overlapping of the Per-Class Bounding Boxes (F2): Essa medida avalia o grau de sobreposição entre as áreas de objetos pertencentes a diferentes classes. Pode ser usada em problemas de detecção de objetos para entender o quanto as caixas delimitadoras de diferentes objetos se sobrepõem.
+
+Maximum Individual Feature Efficiency (F3): Refere-se à eficiência máxima de uma característica específica. Em problemas de seleção de características, é importante entender o quão bem uma característica individual pode discriminar entre diferentes classes.
+
+Collective Feature Efficiency (F4): Esta medida analisa a eficiência coletiva de um conjunto de características em distinguir entre classes. Em contraste com a F3, que se concentra em características individuais, a F4 considera o desempenho geral de todo o conjunto de características.
+
+----------------------------------------------------------------------
+
+Fraction of Points Lying on the Class Boundary (N1): Refere-se à fração de pontos que estão localizados na fronteira entre classes. Em problemas de classificação, identificar esses pontos pode ser crucial para entender a separabilidade das classes.
+
+Average Intra/Inter-Class Nearest Neighbor Distances (N2): Essa medida considera as distâncias médias entre vizinhos mais próximos. A versão intra-classe avalia as distâncias entre vizinhos na mesma classe, enquanto a inter-classe analisa as distâncias entre vizinhos de classes diferentes.
+
+Leave-One-Out Error Rate of the 1-Nearest Neighbor Algorithm (N3): É a taxa de erro obtida ao usar o método do 1-vizinho mais próximo para classificar os dados, onde cada ponto é classificado com base nos vizinhos restantes.
+
+Nonlinearity of the One-Nearest Neighbor Classifier (N4): Refere-se à não-linearidade do classificador de 1-vizinho mais próximo. Isso pode indicar a presença de não linearidades nas relações dos dados que podem ser capturadas pelo método de vizinho mais próximo.
+
+Fraction of Maximum Covering Spheres on Data (T1): Essa medida avalia a fração de esferas de cobertura máxima nos dados. Pode ser útil para entender como um conjunto de dados é abrangido por diferentes esferas de influência.
+
+----------------------------------------------------------------------
+
+Distance of Erroneous Instances to a Linear Classifier (L1): Refere-se à distância das instâncias classificadas erroneamente em relação ao hiperplano de um classificador linear. Isso pode indicar a complexidade do problema ou a presença de exemplos mais difíceis de serem separados linearmente.
+
+Training Error of a Linear Classifier (L2): É a taxa de erro obtida durante o treinamento de um classificador linear. Essa medida avalia o desempenho do classificador no conjunto de treinamento e pode indicar a capacidade do modelo de se ajustar adequadamente aos dados.
+
+Nonlinearity of a Linear Classifier (L3): Essa medida refere-se à não-linearidade presente nos resultados de um classificador linear. Embora um classificador linear busque criar um hiperplano para separar as classes, a medida de não-linearidade avalia o quão bem ou mal esse modelo linear se adapta à realidade não linear dos dados.
