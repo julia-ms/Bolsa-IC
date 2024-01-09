@@ -18,11 +18,11 @@ install.packages('RWeka')
 library(RWeka)
 
 # datasets for tests
-dataset = read.arff('Australian.arff')
-#dataset = read.arff('CastMetal1.arff')
-#dataset = read.arff('CostaMadre1.arff')
-#dataset = read.arff('KungChi3.arff')
-#dataset = read.arff('KnuggetChase3.arff')
+#dataset = read.arff('datasets/Australian.arff')
+#dataset = read.arff('datasets/CastMetal1.arff')
+#dataset = read.arff('datasets/CostaMadre1.arff')
+#dataset = read.arff('datasets/KungChi3.arff')
+dataset = read.arff('datasets/KnuggetChase3.arff')
 
-ImbCoL::complexity(class ~ ., dataset)
+ImbCoL::overlapping(class ~ ., dataset)
 
