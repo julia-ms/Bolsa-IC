@@ -1,0 +1,50 @@
+intersectionalBias.xlsx -
+male.xlsx - 
+female.xlsx -
+white.xlsx -
+black.xlsx -
+asian.xlsx -
+hispanic.xlsx -
+stable.xlsx -
+unstable.xlsx -
+
+
+whiteFem.xlsx -
+whiteMale.xlsx -
+asianFem.xlsx -
+asianMale.xlsx -
+blackFem.xlsx -
+blackMale.xlsx -
+hispanicFem.xlsx -
+hispanicMale.xlsx -
+
+femaleStable.xlsx -
+femaleUnstable.xlsx -
+maleStable.xlsx -
+maleUnstable.xlsx -
+
+whiteStable.xlsx -
+whiteUnstable.xlsx -
+blackStable.xlsx -
+blackUnstable.xlsx -
+asianStable.xlsx -
+asianUnstable.xlsx -
+hispanicStable.xlsx -
+hispanicUnstable.xlsx -
+
+whiteFemSta.xlsx -
+whiteFemUnst.xlsx -
+whiteMaleSta.xlsx -
+whiteMaleUnst.xlsx -
+blackFemSta.xlsx -
+blackFemUnst.xlsx -
+blackMaleSta.xlsx -
+blackMaleUnst.xlsx -
+asianFemSta.xlsx -
+asianFemUnst.xlsx -
+asianMaleSta.xlsx -
+asianMaleUnst.xlsx -
+hispanicFemSta.xlsx -
+hispanicFemUnst.xlsx -
+hispanicMaleSta.xlsx -
+hispanicMaleUnst.xlsx -

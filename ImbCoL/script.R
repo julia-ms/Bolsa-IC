@@ -17,12 +17,18 @@ ImbCoL::overlapping(Species ~ ., iris)
 install.packages('RWeka')
 library(RWeka)
 
+#read xls
+install.packages("readxl")
+library(readxl)
+#dataset = read_excel('datasets/all102.xlsx')
+dataset = read_excel('datasets/intersectional-bias3.xlsx')
+dataset <- dataset[, -Race]
+
 # datasets for tests
-#dataset = read.arff('datasets/Australian.arff')
+dataset2 = read.arff('datasets/Australian.arff')
 #dataset = read.arff('datasets/CastMetal1.arff')
 #dataset = read.arff('datasets/CostaMadre1.arff')
 #dataset = read.arff('datasets/KungChi3.arff')
-dataset = read.arff('datasets/KnuggetChase3.arff')
+datasett = read.arff('datasets/KnuggetChase3.arff')
 
-ImbCoL::overlapping(class ~ ., dataset)
-
+ImbCoL::complexity(Race ~ ., dataset)

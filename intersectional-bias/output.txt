@@ -1,0 +1,26 @@
+[1] "hispanicMaleUnst.xlsx"
+[1] 52
+[1] 14
+[1] 38
+    overlapping.F2_partial.0     overlapping.F2_partial.1 
+                 0.126077035                  0.001887026 
+    overlapping.F3_partial.0     overlapping.F3_partial.1 
+                 0.571428571                  0.078947368 
+    overlapping.F4_partial.0     overlapping.F4_partial.1 
+                 0.571428571                  0.078947368 
+   neighborhood.N1_partial.1    neighborhood.N1_partial.0 
+                 0.210526316                  0.357142857 
+   neighborhood.N2_partial.0    neighborhood.N2_partial.1 
+                 0.455011795                  0.435457487 
+   neighborhood.N3_partial.0    neighborhood.N3_partial.1 
+                 0.214285714                  0.157894737 
+   neighborhood.N4_partial.0    neighborhood.N4_partial.1 
+                 0.019230769                  0.019230769 
+   neighborhood.T1_partial.0    neighborhood.T1_partial.1 
+                 0.857142857                  0.684210526 
+linearity.class.L1_partial.0 linearity.class.L1_partial.1 
+                 0.000000000                  0.000000000 
+linearity.class.L2_partial.0 linearity.class.L2_partial.1 
+                 0.000000000                  0.000000000 
+linearity.class.L3_partial.0 linearity.class.L3_partial.1 
+                 0.000000000                  0.000000000 
