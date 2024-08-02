@@ -1,0 +1,26 @@
+[1] "female.csv"
+[1] 96
+[1] 24
+[1] 72
+    overlapping.F2_partial.0     overlapping.F2_partial.1 
+                  0.21879383                   0.09466191 
+    overlapping.F3_partial.0     overlapping.F3_partial.1 
+                  0.70833333                   0.70833333 
+    overlapping.F4_partial.0     overlapping.F4_partial.1 
+                  0.70833333                   0.70833333 
+   neighborhood.N1_partial.1    neighborhood.N1_partial.0 
+                  0.15277778                   0.37500000 
+   neighborhood.N2_partial.0    neighborhood.N2_partial.1 
+                  0.43794345                   0.32937319 
+   neighborhood.N3_partial.0    neighborhood.N3_partial.1 
+                  0.20833333                   0.05555556 
+   neighborhood.N4_partial.0    neighborhood.N4_partial.1 
+                  0.06250000                   0.00000000 
+   neighborhood.T1_partial.0    neighborhood.T1_partial.1 
+                  0.45833333                   0.23611111 
+linearity.class.L1_partial.0 linearity.class.L1_partial.1 
+                  0.15128618                   0.00447099 
+linearity.class.L2_partial.0 linearity.class.L2_partial.1 
+                  0.16666667                   0.02777778 
+linearity.class.L3_partial.0 linearity.class.L3_partial.1 
+                  0.06250000                   0.00000000 
